@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "winter-log",
+      "type": "com.zsq.winter.log.config.LogProperties",
+      "sourceType": "com.zsq.winter.log.config.LogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "winter-log.is-print",
+      "type": "java.lang.Boolean",
+      "description": "是否打印banner",
+      "sourceType": "com.zsq.winter.log.config.LogProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "winter-log.result-length",
+      "type": "java.lang.Integer",
+      "description": "输出结果的长度(默认为1000字符)",
+      "sourceType": "com.zsq.winter.log.config.LogProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "winter-log.run-time",
+      "type": "java.lang.Long",
+      "description": "方法的运行时长  当方法的运行时间> 设置的值时，才记录。 默认为0",
+      "sourceType": "com.zsq.winter.log.config.LogProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
