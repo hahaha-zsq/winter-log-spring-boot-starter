@@ -4,7 +4,6 @@ import cn.hutool.core.lang.Dict;
 import cn.hutool.http.useragent.UserAgent;
 import cn.hutool.http.useragent.UserAgentUtil;
 import cn.hutool.json.JSONUtil;
-import com.zsq.winter.log.entity.WinterLogConstants;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import net.dreamlu.mica.ip2region.core.Ip2regionSearcher;
